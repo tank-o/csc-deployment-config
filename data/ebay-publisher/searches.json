@@ -15,7 +15,7 @@
     {
       "id": "nvidia_gpu",
       "enabled": true,
-      "priority": true,
+      "priority": false,
       "q": "(1060,1070,1080,1660,2060,2070,2080,3060,3070,3080,3090,4060,4070,4080,4090,5060,5070,5080,5090)",
       "category_id": "27386",
       "aspect_filters": {
