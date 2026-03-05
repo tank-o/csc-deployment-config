@@ -1,5 +1,5 @@
 services:
   ebay-publisher:
-    image: ghcr.io/tank-o/csc-ebay-deal-publisher:v0.1.0
+    image: ghcr.io/tank-o/csc-ebay-deal-publisher:v0.1.1
     env_file: .env.ebay-publisher
     restart: unless-stopped
