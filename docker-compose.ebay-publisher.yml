@@ -1,8 +1,5 @@
 services:
   ebay-publisher:
-    image: ghcr.io/tank-o/csc-ebay-deal-publisher:latest
+    image: ghcr.io/tank-o/csc-ebay-deal-publisher:v0.1.0
     env_file: .env.ebay-publisher
-    volumes:
-      - /data/ebay-publisher/items.json:/data/items.json
-      - /data/ebay-publisher/searches.json:/data/searches.json
     restart: unless-stopped
