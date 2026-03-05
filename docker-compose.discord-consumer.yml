@@ -1,3 +1,4 @@
+name: discord-consumer
 services:
   discord-bot:
     image: ghcr.io/tank-o/csc-discord-consumer:latest

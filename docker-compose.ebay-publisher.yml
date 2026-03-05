@@ -1,3 +1,4 @@
+name: ebay-publisher
 services:
   ebay-publisher:
     image: ghcr.io/tank-o/csc-ebay-deal-publisher:v0.1.1
