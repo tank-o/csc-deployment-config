@@ -1,7 +1,7 @@
 name: discord-consumer
 services:
   discord-bot:
-    image: ghcr.io/tank-o/csc-discord-consumer:latest
+    image: ghcr.io/tank-o/csc-discord-consumer:v0.0.3
     env_file: .env.discord-consumer
     volumes:
       - /data/discord-consumer/items.json:/data/items.json
